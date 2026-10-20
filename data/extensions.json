@@ -1,0 +1,9 @@
+{
+  "user_extensions": [],
+  "builtin_states": {
+    "youtube_ads_bypass": false,
+    "cookie_accept": true,
+    "cookie_killer": true,
+    "dark_reader": false
+  }
+}
