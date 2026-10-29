@@ -1,0 +1,19 @@
+# Dravenlock Browser - Python dependencies
+# Installeer met: pip install -r requirements.txt
+
+# === Verplicht voor de browser zelf ===
+PySide6>=6.5.0
+psutil>=5.9.0
+
+# === Voor TTS (voorlees-functie met neurale stem) ===
+neuvoice
+onnxruntime
+
+# === Voor wachtwoordkluis en SMTP-wachtwoord encryptie ===
+cryptography
+
+# === Build-tools (optioneel, alleen voor exe maken) ===
+# pyinstaller        # snelle exe-build
+# nuitka             # gecompileerde exe (anti-steel)
+# ordered-set        # door Nuitka gebruikt
+# zstandard          # door Nuitka gebruikt
